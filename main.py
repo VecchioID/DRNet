@@ -16,7 +16,7 @@ parser.add_argument('--epochs', type=int, default=401)
 parser.add_argument('--batch_size', type=int, default=256) # batch size
 parser.add_argument('--seed', type=int, default=12346)
 parser.add_argument('--load_workers', type=int, default=4)
-parser.add_argument('--path', type=str, default='/path/to/your/dataset/folder/')
+parser.add_argument('--dataset_path', type=str, default='/path/to/your/dataset/folder/')
 parser.add_argument('--save_model_name', type=str, default='PGM_extra_')  # saved mdoel name
 parser.add_argument('--img_size', type=int, default=80)
 parser.add_argument('--lr', type=float, default=3e-4)
