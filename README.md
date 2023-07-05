@@ -16,7 +16,7 @@ Tested on Linux
 - tqdm 4.50.2
 - torchvision 1.12.0
 
-## Citation
+# Citation
 ```
 @inproceedings{zhang2019raven,
   title={Raven: A dataset for relational and analogical visual reasoning},
