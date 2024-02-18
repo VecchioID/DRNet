@@ -1,4 +1,6 @@
 # DRNet
+We will release our full codes with another publications! Please use checkpoint files to replicate pur results in our paper!
+
 Source code for RPM problems. 
 
 Run the following command to reproduce the results present in our paper:
