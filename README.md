@@ -1,5 +1,5 @@
 # DRNet
-We will release our full codes with another publications! Please use checkpoint files to replicate pur results in our paper!
+We will release our full codes with another publication! Please use checkpoint files to replicate our results in our paper!
 
 Source code for RPM problems. 
 
