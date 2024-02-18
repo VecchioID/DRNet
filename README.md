@@ -1,4 +1,4 @@
-# VRNet
+# DRNet
 Source code for RPM problems. 
 
 Run the following command to reproduce the results present in our paper:
