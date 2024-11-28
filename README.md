@@ -1,4 +1,19 @@
 # DRNet
+Pytorch code for DRNet presented in paper, if you find our work helps for you, pleae cite our work as follows:
+
+# Citation
+```
+@inproceedings{zhao2024learning,
+  title={Learning Visual Abstract Reasoning through Dual-Stream Networks},
+  author={Zhao, Kai and Xu, Chang and Si, Bailu},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={15},
+  pages={16979--16988},
+  year={2024}
+}
+```
+
 We will release our full codes with another publication! Please use checkpoint files to replicate our results in our paper!
 
 Source code for RPM problems. 
@@ -17,50 +32,3 @@ Tested on Linux
 - scikit-image 0.17.2
 - tqdm 4.50.2
 - torchvision 1.12.0
-
-# Citation
-```
-@inproceedings{zhang2019raven,
-  title={Raven: A dataset for relational and analogical visual reasoning},
-  author={Zhang, Chi and Gao, Feng and Jia, Baoxiong and Zhu, Yixin and Zhu, Song-Chun},
-  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
-  pages={5317--5327},
-  year={2019}
-}
-
-@inproceedings{benny2021scale,
-  title={Scale-localized abstract reasoning},
-  author={Benny, Yaniv and Pekar, Niv and Wolf, Lior},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={12557--12565},
-  year={2021}
-}
-
-@inproceedings{hu2021stratified,
-  title={Stratified rule-aware network for abstract visual reasoning},
-  author={Hu, Sheng and Ma, Yuqing and Liu, Xianglong and Wei, Yanlu and Bai, Shihao},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={35},
-  number={2},
-  pages={1567--1574},
-  year={2021}
-}
-
-@inproceedings{barrett2018measuring,
-  title={Measuring abstract reasoning in neural networks},
-  author={Barrett, David and Hill, Felix and Santoro, Adam and Morcos, Ari and Lillicrap, Timothy},
-  booktitle={International conference on machine learning},
-  pages={511--520},
-  year={2018},
-  organization={PMLR}
-}
-
-@article{nie2020bongard,
-  title={Bongard-logo: A new benchmark for human-level concept learning and reasoning},
-  author={Nie, Weili and Yu, Zhiding and Mao, Lei and Patel, Ankit B and Zhu, Yuke and Anandkumar, Anima},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  pages={16468--16480},
-  year={2020}
-}
-```
