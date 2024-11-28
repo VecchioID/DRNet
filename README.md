@@ -16,8 +16,6 @@ Pytorch code for DRNet presented in paper, if you find our work helps for you, p
 
 We will release our full codes with another publication! Please use checkpoint files to replicate our results in our paper!
 
-Source code for RPM problems. 
-
 Run the following command to reproduce the results present in our paper:
 ```
 python train.py --dataset_path <path to data> --multi_gpu 2 -dataset pgm --batch_size 256 --epochs 401
