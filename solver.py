@@ -47,7 +47,7 @@ class ConvBlock(nn.Module):
         self.conv = getattr(nn, 'Conv{}d'.format(dim))(in_ch, out_ch, K_D, stride=dim, padding=K_D // 2)
         self.bnrm = getattr(nn, 'BatchNorm{}d'.format(dim))(out_ch)
         self.drop = nn.Sequential(perm(), nn.Dropout2d(DR_S), perm()) if dim == 1 else nn.Dropout2d(DR_S)
-        self.block = nn.Sequential(self.conv, nn.ELU(), self.bnrm, self.drop)
+        self.block = nn.Sequential(self.conv, nn.ReLU(), self.bnrm, self.drop)
 
     def forward(self, x):
         return self.block(x)
